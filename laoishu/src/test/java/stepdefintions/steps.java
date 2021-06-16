@@ -27,7 +27,7 @@ public class steps {
 	@When("^User clicking on login button$")
 	public void user_clicking_on_login_button() throws Throwable {
 		 driver.findElement(By.xpath("/html/body/div[2]/header/div[1]/div/div[1]/div[1]/div[2]/div[1]/form/button[2]")).click();
-		 Thread.sleep(5000);
+		 
 	}
 
 
